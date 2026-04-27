@@ -4,7 +4,7 @@
 
 envSecretName: a8s-frontend-secret
 # This will set the replicaset count more information can be found here: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
-replicaCount: 5
+replicaCount: 1
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
   repository: benz3528/a8s-frontend
